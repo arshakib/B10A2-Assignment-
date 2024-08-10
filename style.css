@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* body{
@@ -263,8 +264,8 @@ background: rgb(34, 34, 34);
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin: 10% 0% 10% 5%;
-padding: 2% 0% 2% 0%;
+margin: 10% 0% 0% 5%;
+padding: 2% 0% 0% 0%;
 }
 
 .run1 h2{
@@ -296,6 +297,148 @@ padding-bottom: 15px;
     height: 312px;
 }
 
+.bmi{
+    background-color: black;
+}
+
+.bmi-chart{
+    background: rgb(34, 34, 34);
+    margin: 88px 0px 0px 0px;
+    padding: 50px 0px 50px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bmi-sec1{
+    width: 671px;
+    margin: auto;
+}
+
+.bmi-sec1 h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+  
+}
+
+.bmi-sec1 h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
+
+.bmi-table h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 45px;
+}
+
+th , td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+padding: 10px 20px;
+}
+
+th{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+}
+
+.bmi-txt h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+}
+
+.bmi-txt h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+width: 75%;
+}
+
+.form{
+    margin-top: 25px;
+}
+
+#fname{
+width: 280px;
+height: 50px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border-style: none;
+margin-top: 12px;
+margin-right: 12px;
+}
+
+#sex{
+    width: 280px;
+height: 50px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border-style: none;
+}
+
+#factor{
+    width: 580px;
+height: 50px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border-style: none;
+margin-top: 12px;
+}
+
+#fname::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+padding: 12px 40px 12px 20px;
+}
+
+select{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+padding: 12px 40px 12px 20px;
+}
 
 
 
@@ -400,7 +543,7 @@ line-height: 24px;
 width: 250px;
     }
 
-    .btn1{
+    .join-btn{
         width: 100%;
         color: rgb(255, 255, 255);
 font-family: Inter;
@@ -415,6 +558,84 @@ letter-spacing: 0px;
         height: 220px;
         margin: 35px;
     }
+
+    .bmi-sec1{
+        padding: 20px 10px 0px 20px;
+    }
+
+    .bmi-sec1 h2{
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .bmi-sec1 h4{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+width: 353px;
+    }
+
+    .bmi-chart{
+        flex-direction: column;
+        align-items: start;
+        padding: 30px 20px;
+    }
+
+    .bmi-table h2 {
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .bmi-sec3 {
+        padding-top:30px ;
+    }
     
+    .bmi-txt h2{
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .bmi-txt h4{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+    }
+
+    #fname{
+        width: 190px;
+        height: 40px;
+    }
+
+    #sex{
+        width: 190px;
+        height: 40px;
+        padding-top: 4px;
+    }
+
+    #factor{
+       
+    }
 
 }
