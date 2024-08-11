@@ -265,7 +265,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 margin: 10% 0% 0% 5%;
-padding: 2% 0% 0% 0%;
+padding: 2% 0% 2% 0%;
 }
 
 .run1 h2{
@@ -303,11 +303,11 @@ padding-bottom: 15px;
 
 .bmi-chart{
     background: rgb(34, 34, 34);
-    margin: 88px 0px 0px 0px;
-    padding: 50px 0px 50px 150px;
+    margin: 88px 0px 88px 0px;
+    padding: 50px 0px 0px 150px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 
 .bmi-sec1{
@@ -440,6 +440,217 @@ letter-spacing: 0px;
 padding: 12px 40px 12px 20px;
 }
 
+.cal-btn{
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+padding: 16px 40px 16px 40px;
+margin: 34px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+}
+
+.photo{
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.photo-txt{
+    margin-top: 50px;
+    padding: 15px 0px;
+}
+
+.photo-txt h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.photo-txt h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+width: 624px;
+    margin: auto;
+}
+
+.photo-sec{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 326.67px);
+    gap: 30px;
+    margin: 50px 250px 0px 250px; ;
+    padding: 20px;
+    border-radius: 18px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+.pho{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 18px;
+}
+
+.pho h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.pho h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.pho1{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pho2{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+.pho3{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pho4{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pho5{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pho6{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/trainer6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 66px 66px 46px 66px;
+}
+
+.ft-a{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ft-1{
+    width: 443px;
+    margin-right: 100px;
+}
+
+.ft-1 h2{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.ft-1 h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+
+.ft-2 h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.ft-2 ul{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.ft-2 ul li{
+    margin-bottom: 10px;
+}
+
+.ft-2 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1059.5px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ft-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ft-b h4{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -561,6 +772,7 @@ letter-spacing: 0px;
 
     .bmi-sec1{
         padding: 20px 10px 0px 20px;
+        width: fit-content;
     }
 
     .bmi-sec1 h2{
@@ -624,18 +836,84 @@ text-align: left;
     }
 
     #fname{
-        width: 190px;
+        width: 170px;
         height: 40px;
     }
 
     #sex{
-        width: 190px;
+        width: 170px;
         height: 40px;
         padding-top: 4px;
     }
 
     #factor{
-       
+        width: 360px;
+        height: 45px;
+    }
+
+    .photo-txt h2{
+        font-size: 32px;
+    }
+
+    .photo-txt h4 {
+        width: 309px;
+    }
+
+    .photo-sec{
+        grid-template-columns: repeat(1, 326.67px);
+        margin: 50px 25px 0px 25px;
+    }
+
+    .ft-a{
+        flex-direction: 
+        column;
+    }
+
+    .ft-1{
+        width: 317px;
+    }
+
+    .ft-1 h2 {
+        font-size: 70px;
+font-weight: 800;
+    }
+
+    .ft-1 h4 {
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+    }
+
+    .ft-2{
+        margin-top: 30px;
+    }
+
+    .ft-2 h2{
+        font-size: 32px;
+font-weight: 700;
+    }
+
+    .ft-2 h4{
+        font-size: 23px;
+font-weight: 400;
+    }
+
+    hr{
+        width: 274px;
+    }
+
+    .ft-b h4{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
     }
 
 }
